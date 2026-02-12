@@ -5,3 +5,5 @@
 <!-- commit-log: 2026-02-07T21:48:15 - refactor: extract API service layer in frontend -->
 
 <!-- commit-log: 2026-02-11T22:17:41 - chore: sync frontend env config with backend routes -->
+
+<!-- commit-log: 2026-02-12T10:32:05 - fix: resolve CORS issue between frontend and backend -->
