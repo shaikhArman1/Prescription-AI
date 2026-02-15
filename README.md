@@ -7,3 +7,5 @@
 <!-- commit-log: 2026-02-11T22:17:41 - chore: sync frontend env config with backend routes -->
 
 <!-- commit-log: 2026-02-12T10:32:05 - fix: resolve CORS issue between frontend and backend -->
+
+<!-- commit-log: 2026-02-15T17:31:32 - feat: add API endpoint for data aggregation -->
