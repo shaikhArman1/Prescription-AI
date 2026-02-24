@@ -11,3 +11,5 @@
 <!-- commit-log: 2026-02-15T17:31:32 - feat: add API endpoint for data aggregation -->
 
 <!-- commit-log: 2026-02-23T13:48:23 - fix: resolve CORS issue between frontend and backend -->
+
+<!-- commit-log: 2026-02-24T15:54:23 - fix: handle authentication token expiry in UI -->
