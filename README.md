@@ -15,3 +15,5 @@
 <!-- commit-log: 2026-02-24T15:54:23 - fix: handle authentication token expiry in UI -->
 
 <!-- commit-log: 2026-03-02T12:35:54 - fix: handle 500 errors gracefully with user feedback -->
+
+<!-- commit-log: 2026-03-03T13:36:24 - fix: resolve CORS issue between frontend and backend -->
