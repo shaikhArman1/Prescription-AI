@@ -17,3 +17,5 @@
 <!-- commit-log: 2026-03-02T12:35:54 - fix: handle 500 errors gracefully with user feedback -->
 
 <!-- commit-log: 2026-03-03T13:36:24 - fix: resolve CORS issue between frontend and backend -->
+
+<!-- commit-log: 2026-03-04T12:57:16 - fix: resolve CORS issue between frontend and backend -->
