@@ -19,3 +19,5 @@
 <!-- commit-log: 2026-03-03T13:36:24 - fix: resolve CORS issue between frontend and backend -->
 
 <!-- commit-log: 2026-03-04T12:57:16 - fix: resolve CORS issue between frontend and backend -->
+
+<!-- commit-log: 2026-03-07T22:03:43 - docs: update integration guide for local dev -->
