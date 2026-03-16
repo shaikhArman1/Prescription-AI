@@ -25,3 +25,5 @@
 <!-- commit-log: 2026-03-11T11:06:38 - fix: resolve CORS issue between frontend and backend -->
 
 <!-- commit-log: 2026-03-12T12:58:43 - docs: add architecture diagram to README -->
+
+<!-- commit-log: 2026-03-16T16:37:54 - feat: add retry logic on failed API calls -->
