@@ -29,3 +29,5 @@
 <!-- commit-log: 2026-03-16T16:37:54 - feat: add retry logic on failed API calls -->
 
 <!-- commit-log: 2026-03-17T21:52:52 - docs: add architecture diagram to README -->
+
+<!-- commit-log: 2026-03-22T13:06:29 - feat: add pagination support to list endpoints -->
