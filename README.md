@@ -31,3 +31,5 @@
 <!-- commit-log: 2026-03-17T21:52:52 - docs: add architecture diagram to README -->
 
 <!-- commit-log: 2026-03-22T13:06:29 - feat: add pagination support to list endpoints -->
+
+<!-- commit-log: 2026-03-24T15:36:57 - feat: add pagination support to list endpoints -->
