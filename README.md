@@ -33,3 +33,5 @@
 <!-- commit-log: 2026-03-22T13:06:29 - feat: add pagination support to list endpoints -->
 
 <!-- commit-log: 2026-03-24T15:36:57 - feat: add pagination support to list endpoints -->
+
+<!-- commit-log: 2026-03-30T16:56:14 - refactor: move API base URL to config module -->
