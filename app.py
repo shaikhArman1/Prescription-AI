@@ -33,6 +33,8 @@ def analyze_prescription():
     if file.filename == '':
         return jsonify({"error": "No selected file"}), 400
 
+    target_language = request.form.get('language', 'English')
+
     try:
         # Load the image
         img = Image.open(io.BytesIO(file.read()))
@@ -40,31 +42,38 @@ def analyze_prescription():
         # Use the gemini-2.5-flash model which is great for fast text/image tasks
         model = genai.GenerativeModel('gemini-2.5-flash')
         
-        prompt = """
+        prompt = f"""
         You are an expert AI Prescription Analyzer. 
         Carefully read the handwriting or text in the provided prescription image.
         
         1. Extract a complete summary of the disease or condition if mentioned by the doctor.
         2. Extract a list of ALL prescribed medicines from the prescription, including their dosage and frequency/timing.
         
+        CRITICAL INSTRUCTION: You MUST translate the ENTIRE extracted output (including the disease summary, medication names, dosages, and instructions) entirely into {target_language}.
+        
         Format your response EXACTLY as a JSON object with these keys:
-        "disease_summary": (A string summarizing the disease or condition. If none is found, return "No specific disease mentioned.")
-        "medicines": (A list of objects, where each object has "name", "dosage", and "frequency" keys)
+        "disease_summary": (A string summarizing the disease or condition. If none is found, return "No specific disease mentioned." translated into {target_language})
+        "medicines": (A list of objects, where each object has "name", "dosage", and "frequency" keys translated into {target_language})
         
         Example:
-        {
+        {{
           "disease_summary": "Patient complains of viral fever and body ache.",
           "medicines": [
-             {"name": "Paracetamol", "dosage": "500mg", "frequency": "Twice a day"},
-             {"name": "Amoxicillin", "dosage": "250mg", "frequency": "Once a day"}
+             {{"name": "Paracetamol", "dosage": "500mg", "frequency": "Twice a day"}},
+             {{"name": "Amoxicillin", "dosage": "250mg", "frequency": "Once a day"}}
           ]
-        }
+        }}
         
         Do not include any markdown formatting like ```json or newlines around the JSON, just the raw JSON string.
         If you cannot decipher a field, output "Unknown" for that field's value.
         """
         
-        response = model.generate_content([prompt, img])
+        response = model.generate_content(
+            [prompt, img],
+            generation_config=genai.GenerationConfig(
+                 response_mime_type="application/json",
+            )
+        )
         
         # Parse the JSON response
         text = response.text.strip()

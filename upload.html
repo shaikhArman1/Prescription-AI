@@ -41,6 +41,15 @@
     <input type="file" id="fileInput">
   </div>
 
+  <div class="language-select-wrapper" style="margin-bottom: 2rem;">
+    <label for="languageSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem; color: var(--text-muted);">Translate Prescription to:</label>
+    <select id="languageSelect" class="language-select">
+      <option value="English" selected>English</option>
+      <option value="Hindi">Hindi (हिंदी)</option>
+      <option value="Bengali">Bengali (বাংলা)</option>
+    </select>
+  </div>
+
   <button class="btn-primary" onclick="processImage()">
     Analyze Prescription
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
