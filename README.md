@@ -43,3 +43,5 @@
 <!-- commit-log: 2026-05-01T14:24:55 - fix: handle authentication token expiry in UI -->
 
 <!-- commit-log: 2026-05-01T19:54:48 - fix: resolve CORS issue between frontend and backend -->
+
+<!-- commit-log: 2026-05-01T21:09:50 - feat: add loading state for API-dependent components -->
