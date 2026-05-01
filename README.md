@@ -35,3 +35,5 @@
 <!-- commit-log: 2026-03-24T15:36:57 - feat: add pagination support to list endpoints -->
 
 <!-- commit-log: 2026-03-30T16:56:14 - refactor: move API base URL to config module -->
+
+<!-- commit-log: 2026-05-01T09:28:07 - feat: improve error boundary in React app -->
