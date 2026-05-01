@@ -41,3 +41,5 @@
 <!-- commit-log: 2026-05-01T11:19:08 - refactor: move API base URL to config module -->
 
 <!-- commit-log: 2026-05-01T14:24:55 - fix: handle authentication token expiry in UI -->
+
+<!-- commit-log: 2026-05-01T19:54:48 - fix: resolve CORS issue between frontend and backend -->
