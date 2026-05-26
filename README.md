@@ -47,3 +47,5 @@
 <!-- commit-log: 2026-05-01T21:09:50 - feat: add loading state for API-dependent components -->
 
 <!-- commit-log: 2026-05-26T09:29:16 - refactor: move API base URL to config module -->
+
+<!-- commit-log: 2026-05-26T10:03:26 - feat: add pagination support to list endpoints -->
