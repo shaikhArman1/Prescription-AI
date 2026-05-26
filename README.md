@@ -55,3 +55,5 @@
 <!-- commit-log: 2026-05-26T14:55:13 - docs: update integration guide for local dev -->
 
 <!-- commit-log: 2026-05-26T14:13:30 - perf: reduce payload size with response filtering -->
+
+<!-- commit-log: 2026-05-26T16:55:44 - fix: correct JSON serialization in Python response -->
