@@ -65,3 +65,5 @@
 <!-- commit-log: 2026-05-26T20:40:12 - refactor: update async request handling in UI -->
 
 <!-- commit-log: 2026-05-26T22:53:08 - fix: handle 500 errors gracefully with user feedback -->
+
+<!-- commit-log: 2026-05-26T22:39:24 - fix: align data types between Python models and JS -->
