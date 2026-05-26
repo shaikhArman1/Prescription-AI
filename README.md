@@ -45,3 +45,5 @@
 <!-- commit-log: 2026-05-01T19:54:48 - fix: resolve CORS issue between frontend and backend -->
 
 <!-- commit-log: 2026-05-01T21:09:50 - feat: add loading state for API-dependent components -->
+
+<!-- commit-log: 2026-05-26T09:29:16 - refactor: move API base URL to config module -->
