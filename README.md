@@ -51,3 +51,5 @@
 <!-- commit-log: 2026-05-26T10:03:26 - feat: add pagination support to list endpoints -->
 
 <!-- commit-log: 2026-05-26T12:41:45 - fix: resolve datetime serialization in JSON -->
+
+<!-- commit-log: 2026-05-26T14:55:13 - docs: update integration guide for local dev -->
