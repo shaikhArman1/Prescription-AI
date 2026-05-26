@@ -61,3 +61,5 @@
 <!-- commit-log: 2026-05-26T19:39:24 - refactor: move API base URL to config module -->
 
 <!-- commit-log: 2026-05-26T20:34:00 - feat: improve error boundary in React app -->
+
+<!-- commit-log: 2026-05-26T20:40:12 - refactor: update async request handling in UI -->
