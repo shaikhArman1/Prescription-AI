@@ -49,3 +49,5 @@
 <!-- commit-log: 2026-05-26T09:29:16 - refactor: move API base URL to config module -->
 
 <!-- commit-log: 2026-05-26T10:03:26 - feat: add pagination support to list endpoints -->
+
+<!-- commit-log: 2026-05-26T12:41:45 - fix: resolve datetime serialization in JSON -->
