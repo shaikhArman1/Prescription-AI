@@ -73,3 +73,5 @@
 <!-- commit-log: 2026-06-03T12:00:05 - chore: sync frontend env config with backend routes -->
 
 <!-- commit-log: 2026-06-03T19:41:10 - fix: handle 500 errors gracefully with user feedback -->
+
+<!-- commit-log: 2026-06-03T22:26:58 - docs: update integration guide for local dev -->
