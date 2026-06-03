@@ -67,3 +67,5 @@
 <!-- commit-log: 2026-05-26T22:53:08 - fix: handle 500 errors gracefully with user feedback -->
 
 <!-- commit-log: 2026-05-26T22:39:24 - fix: align data types between Python models and JS -->
+
+<!-- commit-log: 2026-06-03T11:15:50 - feat: add loading state for API-dependent components -->
