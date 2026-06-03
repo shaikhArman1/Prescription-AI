@@ -69,3 +69,5 @@
 <!-- commit-log: 2026-05-26T22:39:24 - fix: align data types between Python models and JS -->
 
 <!-- commit-log: 2026-06-03T11:15:50 - feat: add loading state for API-dependent components -->
+
+<!-- commit-log: 2026-06-03T12:00:05 - chore: sync frontend env config with backend routes -->
