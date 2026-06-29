@@ -79,3 +79,5 @@
 <!-- commit-log: 2026-06-03T22:45:52 - fix: handle 500 errors gracefully with user feedback -->
 
 <!-- commit-log: 2026-06-13T13:53:17 - feat: add health check endpoint for monitoring -->
+
+<!-- commit-log: 2026-06-29T14:03:50 - feat: add loading state for API-dependent components -->
