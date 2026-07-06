@@ -93,3 +93,5 @@
 <!-- commit-log: 2026-07-06T18:43:47 - feat: add API endpoint for data aggregation -->
 
 <!-- commit-log: 2026-07-06T21:04:11 - feat: add health check endpoint for monitoring -->
+
+<!-- commit-log: 2026-07-06T22:31:09 - feat: add pagination support to list endpoints -->
