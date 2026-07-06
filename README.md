@@ -87,3 +87,5 @@
 <!-- commit-log: 2026-07-06T11:20:28 - feat: improve error boundary in React app -->
 
 <!-- commit-log: 2026-07-06T13:49:03 - refactor: extract API service layer in frontend -->
+
+<!-- commit-log: 2026-07-06T14:10:10 - fix: handle authentication token expiry in UI -->
