@@ -85,3 +85,5 @@
 <!-- commit-log: 2026-06-29T20:58:18 - chore: update Axios and FastAPI versions -->
 
 <!-- commit-log: 2026-07-06T11:20:28 - feat: improve error boundary in React app -->
+
+<!-- commit-log: 2026-07-06T13:49:03 - refactor: extract API service layer in frontend -->
