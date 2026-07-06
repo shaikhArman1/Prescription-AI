@@ -89,3 +89,5 @@
 <!-- commit-log: 2026-07-06T13:49:03 - refactor: extract API service layer in frontend -->
 
 <!-- commit-log: 2026-07-06T14:10:10 - fix: handle authentication token expiry in UI -->
+
+<!-- commit-log: 2026-07-06T18:43:47 - feat: add API endpoint for data aggregation -->
