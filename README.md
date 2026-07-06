@@ -91,3 +91,5 @@
 <!-- commit-log: 2026-07-06T14:10:10 - fix: handle authentication token expiry in UI -->
 
 <!-- commit-log: 2026-07-06T18:43:47 - feat: add API endpoint for data aggregation -->
+
+<!-- commit-log: 2026-07-06T21:04:11 - feat: add health check endpoint for monitoring -->
