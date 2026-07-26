@@ -97,3 +97,5 @@
 <!-- commit-log: 2026-07-06T22:31:09 - feat: add pagination support to list endpoints -->
 
 <!-- commit-log: 2026-07-25T18:05:46 - docs: update integration guide for local dev -->
+
+<!-- commit-log: 2026-07-26T21:47:53 - docs: add architecture diagram to README -->
