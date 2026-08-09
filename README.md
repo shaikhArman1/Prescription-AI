@@ -99,3 +99,5 @@
 <!-- commit-log: 2026-07-25T18:05:46 - docs: update integration guide for local dev -->
 
 <!-- commit-log: 2026-07-26T21:47:53 - docs: add architecture diagram to README -->
+
+<!-- commit-log: 2026-08-09T17:23:38 - feat: improve error boundary in React app -->
