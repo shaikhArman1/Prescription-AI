@@ -103,3 +103,5 @@
 <!-- commit-log: 2026-08-09T17:23:38 - feat: improve error boundary in React app -->
 
 <!-- commit-log: 2026-08-15T18:34:39 - chore: update Axios and FastAPI versions -->
+
+<!-- commit-log: 2026-08-25T09:18:20 - feat: add loading state for API-dependent components -->
